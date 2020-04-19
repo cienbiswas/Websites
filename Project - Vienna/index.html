@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- ========== Meta Tags ========== -->
+    <meta charset="UTF-8">
+    <meta name="description" content="Vienna">
+    <meta name="keywords" content="Vienna , Food, Travel, Viennese Food, Vienna Attractions, Viennese Restaurants, St. Stephen's Cathedral, Sachertorte, Schnitzel, Viennese Schnitzel">
+    <meta name="author" content="NEIC3001">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <!-- ========== Title ========== -->
+    <title>Vienna</title>
+    <!-- ========== Favicon Ico ========== -->
+    <!--<link rel="icon" href="fav.ico">-->
+    <!-- ========== STYLESHEETS ========== -->
+    <!-- Bootstrap CSS -->
+    <link href="/test/html/html/assets/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Fonts Icon CSS -->
+    <link href="/test/html/html/assets/css/font-awesome.min.css" rel="stylesheet">
+    <link href="/test/html/html/assets/css/et-line.css" rel="stylesheet">
+    <link href="/test/html/html/assets/css/ionicons.min.css" rel="stylesheet">
+    <!-- Carousel CSS -->
+    <link href="/test/html/html/assets/css/slick.css" rel="stylesheet">
+    <!-- Magnific-popup -->
+    <link rel="stylesheet" href="/test/html/html/assets/css/magnific-popup.css">
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="/test/html/html/assets/css/animate.min.css">
+    <!-- Custom styles -->
+    <link href="/css/main.css" rel="stylesheet">
+</head>
+<body>
+<div class="loader">
+    <div class="loader-outter"></div>
+    <div class="loader-inner"></div>
+</div>
+
+<div class="body-container container-fluid">
+    <a class="menu-btn" href="javascript:void(0)">
+        <i class="ion ion-grid"></i>
+    </a>
+    <div class="row justify-content-center">
+        <!--=================== side menu ====================-->
+        <div class="col-lg-2 col-md-3 col-12 menu_block">
+
+            <!--logo -->
+            <div class="logo_box">
+                <a href="#">
+                    <img src="/img/Logo.png" alt="Vienna">
+                </a>
+            </div>
+            <!--logo end-->
+
+            <!--main menu -->
+            <div class="side_menu_section only_menu">
+                <ul class="menu_nav">
+                    <li class="active">
+                        <a href="index.html">
+                            Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pages/attractions.html">
+                            Places
+                        </a>
+                    </li>
+                    <li>
+                        <a href="pages/food.html">
+                            Food
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!--main menu end -->
+
+                         <!--filter menu-->
+            <div class="side_menu_section">
+                <h4 class="side_title side_title_box">filter by:</h4>
+                <ul  id="filtr-container"  class="filter_nav">
+                    <li  data-filter="*" class="active"><a href="javascript:void(0)" >all</a></li>
+                    <li data-filter=".branding"> <a href="javascript:void(0)">Buildings</a></li>
+                    <li data-filter=".design"><a href="javascript:void(0)">Food</a></li>
+                    <li data-filter=".photography"><a href="javascript:void(0)">Views</a></li>
+                    <!--<li data-filter=".architecture"><a href="javascript:void(0)">architecture</a></li>-->
+                </ul>
+            </div>
+                        <!--filter menu end -->
+                        <!--social and copyright -->
+            <ul class="social_menu">
+                <li>
+                    <a href="#"> <i class="ion ion-social-pinterest"></i> </a>
+                </li>
+                <li>
+                    <a href="#"> <i class="ion ion-social-facebook"></i> </a>
+                </li>
+                <li>
+                    <a href="#"> <i class="ion ion-social-twitter"></i> </a>
+                </li>
+                <li>
+                    <a href="#"> <i class="ion ion-social-dribbble"></i> </a>
+                </li>
+            </ul>
+            <div class="copy_right">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                <p class="copyright" id="footer"><a href="pages/contact.html">Impressum</a> | Copyright &copy;<script>document.write(new Date().getFullYear());</script></p>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </div>
+            <!--social and copyright end -->
+        </div>
+        <!--=================== side menu end====================-->
+
+        <!--=================== content body ====================-->
+        <div class="col-lg-10 col-md-9 col-12 body_block  align-content-center">
+            <div class="portfolio">
+                <div class="container-fluid">
+                    <!--=================== masaonry portfolio start====================-->
+                    <div class="grid img-container justify-content-center no-gutters">
+                        <div class="grid-sizer col-sm-12 col-md-6 col-lg-3"></div>
+                        <div class="grid-item   photography    col-sm-12 col-md-6 col-lg-3">
+                            <a href="/img/City_View1.jpg" title="City View">
+                                <div class="project_box_one">
+                                    <img src="/img/City_View1.jpg" title="City View" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+                                            <div class="product_info_text_inner">
+                                                <i class="ion ion-plus"></i>
+                                                <h4>View from Stephansdom</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item   branding     col-sm-12 col-md-6">
+                            <a href="/img/Karlsplatz.jpg" title="Description Karlsplatz">
+                                <div class="project_box_one">
+                                    <img src="/img/Karlsplatz.jpg" alt="Karlsplatz" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+                                            <div class="product_info_text_inner">
+                                                <i class="ion ion-plus"></i>
+                                                <h4>Karlsplatz</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item   branding    photography      col-sm-12 col-md-6 col-lg-3">
+                            <a href="/img/Donau_DCTower_Marathon.jpg" title="Description Marathon at the Donau">
+                                <div class="project_box_one">
+                                    <img src="/img/Donau_DCTower_Marathon.jpg" alt="Reichsbruecke/Donau" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+                                            <div class="product_info_text_inner">
+                                                <i class="ion ion-plus"></i>
+                                                <h4>Reichsbruecke/Donau</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item   branding    photography      col-sm-12 col-md-6 col-lg-3">
+                            <a href="/img/Donaukanal_Urania.jpg" title="Description Donaukanal and the Urania">
+                                <div class="project_box_one">
+                                    <img src="/img/Donaukanal_Urania.jpg" alt="Donaukanal" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+                                            <div class="product_info_text_inner">
+                                                <i class="ion ion-plus"></i>
+                                                <h4>Donaukanal</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item   design    col-sm-12 col-md-6 col-lg-6">
+                            <a href="/img/Sachertorte.jpg" title='The famous and delicious "Sachertorte" of Vienna!'>
+                                <div class="project_box_one black_line">
+                                    <img src="/img/Sachertorte.jpg" alt="Sachertorte" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+                                            <div class="product_info_text_inner">
+                                                <i class="ion ion-plus"></i>
+                                                <h4>Sachertorte</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item       branding     col-sm-12 col-md-6 col-lg-3">
+                            <a href="/img/Riesenrad_small.jpg" title="Description Riesenrad">
+                                <div class="project_box_one">
+                                    <img src="/img/Riesenrad_small.jpg" alt="Riesenrad" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+                                            <div class="product_info_text_inner">
+                                                <i class="ion ion-plus"></i>
+                                                <h4>Riesenrad</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item   branding    col-sm-12 col-md-6 col-lg-3">
+                            <a href="/img/Stephansdom_Gebaeude_small2.jpg" title="Description Stephansdom">
+                                <div class="project_box_one black_line2">
+                                    <img src="/img/Stephansdom_Gebaeude_small2.jpg" alt="Stephansdom" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+                                            <div class="product_info_text_inner">
+                                                <i class="ion ion-plus"></i>
+                                                <h4>Stephansdom</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid-item    branding    col-sm-12 col-md-6 col-lg-3">
+                            <a href="/img/Rathaus.jpg" title="Description Rathaus">
+                                <div class="project_box_one">
+                                    <img src="/img/Rathaus.jpg" alt="Rathaus" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+                                            <div class="product_info_text_inner">
+                                                <i class="ion ion-plus"></i>
+                                                <h4>Rathaus</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <!--
+                        <div class="grid-item architecture  col-sm-12 col-md-6 col-lg-3">
+                            <a href="/img/Stephansdom.jpg" title="Stephansdom">
+                                <div class="project_box_one">
+                                    <img src="/img/Stephansdom.jpg" alt="pro1" />
+                                    <div class="product_info">
+                                        <div class="product_info_text">
+                                            <div class="product_info_text_inner">
+                                                <i class="ion ion-plus"></i>
+                                                <h4>project name</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                        -->
+                    </div>
+                    <!--=================== masaonry portfolio end====================-->
+                </div>
+            </div>
+        </div>
+        <!--=================== content body end ====================-->
+    </div>
+</div>
+
+
+<!-- jquery -->
+<script src="/test/html/html/assets/js/jquery.min.js"></script>
+<!-- bootstrap -->
+<script src="/test/html/html/assets/js/popper.js"></script>
+<script src="/test/html/html/assets/js/bootstrap.min.js"></script>
+<script src="/test/html/html/assets/js/waypoints.min.js"></script>
+<!--slick carousel -->
+<script src="/test/html/html/assets/js/slick.min.js"></script>
+<!--Portfolio Filter-->
+<script src="/test/html/html/assets/js/imgloaded.js"></script>
+<script src="/test/html/html/assets/js/isotope.js"></script>
+<!-- Magnific-popup -->
+<script src="/test/html/html/assets/js/jquery.magnific-popup.min.js"></script>
+<!--Counter-->
+<script src="/test/html/html/assets/js/jquery.counterup.min.js"></script>
+<!-- WOW JS -->
+<script src="/test/html/html/assets/js/wow.min.js"></script>
+<!-- Custom js -->
+<script src="/test/html/html/assets/js/main.js"></script>
+</body>
+</html>
