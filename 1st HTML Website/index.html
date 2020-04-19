@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Cien Biswas</title>
+<link rel="stylesheet" type="text/CSS" href="Stylesheet.css">
+</head>
+<body>
+
+<h1>Welcome to the website of Cien Biswas!</h1>
+<div class="box">
+    <h3 id="heading">Registration</h3>
+    <form autocomplete="on" method="post" action="About_myself.html">
+        <fieldset>
+            <legend><strong>Personal Information*</strong></legend>
+             Title<br>
+                <input list="title">
+                    <datalist id="title">
+                        <option value="Dr.">
+                        <option value="Mag.">
+                        <option value="Dipl.-Ing.">
+                        <option value="Prof.">
+                        <option value="Univ. Prof.">
+                        <option value="None">
+                    </datalist>
+            <br><br>
+            First name<br>
+            <input type="text" name="first name" required>
+            <br><br>
+            Last name<br>
+            <input type="text" name="last name" required>
+            <br><br>
+            Email address<br>
+            <input type="text" name="email" required autocomplete="off" placeholder="ex. felix.bauer@gmail.com">
+            <br><br>
+            Phone number<br>
+            <input type="tel" name="number" required placeholder="ex. 0660 1234567">
+            <br><br>
+            Date of birth&emsp;&emsp;&emsp;&emsp;&emsp; Age<br>
+            <input type="date" id="a" name="a" required oninput="x.value=2019 - parseInt(a.value)"> &emsp;&emsp;
+            <output name="x"></output>
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend><strong>Address*</strong></legend>
+            Street<br>
+            <input type="text" name="street" required autocomplete="off">
+            <br><br>
+            House number<br>
+            <input type="text" name="house number" required placeholder="ex. 20/3">
+            <br><br>
+            Post code<br>
+            <input type="number" name="post code" required>
+            <br><br>
+            City<br>
+            <input type="text" name="city" required>
+            <br><br>
+            Country<br>
+            <input type="text" name="country">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend><strong>Username & Password*</strong></legend>
+            Username<br>
+            <input type="text" name="username" formmethod="get" required>
+            <br><br>
+            Password<br>
+            <input type="password" name="password" required autocomplete="off">
+            <br><br>
+            Repeat password<br>
+            <input type="password" name="password1" required autocomplete="off">
+        </fieldset>
+        <br><br>
+        <fieldset>
+            <legend><strong>Additional Information</strong></legend>
+            Interests<br>
+            <textarea name="interests" rows="8" cols="50"></textarea><br><br>
+            Languages spoken<br>
+            <input type="checkbox" name="language1" value="german">German<br>
+            <input type="checkbox" name="language2" value="english">English<br>
+            <input type="checkbox" name="language3" value="french">French<br>
+            <input type="checkbox" name="language4" value="spanish">Spanish<br>
+            <input type="checkbox" name="language5" value="italien">Italien<br>
+            <input type="checkbox" name="language6" value="chinese">Chinese<br>
+            <input type="checkbox" name="language7" value="hindi">Hindi<br>
+            <input type="checkbox" name="language8" value="other">Other<br>
+            <br>
+            Comment<br>
+            <textarea name="comment" rows="5" cols="40"></textarea>
+        </fieldset><br><br>
+        <fieldset>
+            <legend>Terms and conditions*</legend>
+            <input type="radio" name="terms&conditions" value="terms" required>I agree to the <a target="_blank" href="https://shop.deadbydaylight.com/policies/terms-of-service">terms and conditions</a> of this website
+        </fieldset><br>
+        <p>*All fields in that legend have to be filled</p><br>
+        <input type="submit" value="Submit">
+    </form>
+</div>
+<div class="footer">
+    <p id="footer">Biswas Cooperation&emsp;<strong>|</strong>&emsp;<a target="_blank" href="https://shop.deadbydaylight.com/policies/terms-of-service">Terms and Conditions</a>&emsp;<strong>|</strong>&emsp;Contact me: cien.biswas40@gmail.com</p>
+</div>
+</body>
+</html>

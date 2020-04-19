@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>A portrait of the artist as a young wo/man</title>
+<link rel="stylesheet" type="text/CSS" href="Stylesheet.css">
+</head>
+<body>
+
+<h1>Welcome to the website of Cien Biswas!</h1>
+<ul id="drop-list">
+    <div class="dropdown">
+        <span><strong>Menu</strong></span>
+        <div class="drop-content">
+            <li><a id="dropLinks" href="About_myself.html">About myself</a></li>
+            <li><a id="dropLinks" href="images.html">Images</a></li>
+            <li><a id="dropLinks" href="Likes_Dislikes.html">Likes/dislikes</a></li>
+            <li><a id="dropLinks" href="Schedule.html">Time schedule</a></li>
+            <li><a id="dropLinks" href="description_list.html">Description list</a></li>
+            <li><a id="dropLinks" href="Code.html">Java code</a></li>
+            <li><a id="dropLinks" href="Poem_Song.html">Song: Bang Bang</a></li>
+        </div>
+    </div>
+</ul>
+
+<div class="box">
+	<h4 id="heading" style="text-align: left">public void getCoolWebsite(int coolness, boolean swag, String name)</h4>
+	<h4>{</h4>
+    <pre>
+        if(coolness <= 0)
+        {
+            System.out.println("HAHAHAHAHA xDDD");
+            return;
+        }
+        else if(name == null || name.length() == 0)
+            return;
+
+        if(swag)
+        {
+            if(nameCheck.aCoolName(name) == true)
+                coolness += name.length();
+        }
+        else
+            coolness -= name.length();
+
+        website.create(name, coolness);
+        System.out.println("Now look at this great website! :D");
+	</pre>
+    <h4>}</h4>
+</div>
+<div class="footer">
+    <p id="footer">Biswas Cooperation&emsp;<strong>|</strong>&emsp;<a target="_blank" href="https://shop.deadbydaylight.com/policies/terms-of-service">Terms and Conditions</a>&emsp;<strong>|</strong>&emsp;Contact me: cien.biswas40@gmail.com</p>
+</div>
+</body>
+</html>

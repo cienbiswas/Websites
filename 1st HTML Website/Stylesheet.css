@@ -1,0 +1,253 @@
+h1, h2, h3, h4, h5, h6{
+
+    font-family: "Verdana, Helvetica, Arial", sans-serif;
+	color: #2c2c54;
+	font-weight: bold;
+}
+h1{
+	text-align: center;
+	color: #f7f1e3;
+}
+
+#head {
+	color: #2c2c54;
+}
+p{
+
+    font-family: "Times New Roman, Georgia, Book Antiqua", serif ;
+	font-size: 19px;
+}
+
+pre {
+    font-family: "Times New Roman, Georgia, Book Antiqua", serif;
+    font-size: 20px;
+}
+body{
+	background-color: #474787 /*#2980b9;*/
+
+}
+
+
+/*  Menu  */
+
+#drop-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 25px;
+	text-align: center;
+	font-family: "Times New Roman, Georgia, Book Antiqua";
+}
+li a{
+	display: block;
+	width: 150px;
+	font-size: 18px;
+	text-align: left;
+}
+.dropdown{
+	position: relative;
+	display: inline-block;
+	padding: 8px;
+	border-style: ridge;
+	border-color: #C0C0C0;
+	background: #f7f1e3;
+	color: #2c2c54;
+	font-weight: bold;
+	margin-top: 1.25%;
+}
+
+.drop-content{
+	display: none;
+	position: absolute;
+	background-color: #f7f1e3;
+	min-width: 100px;
+	box-shadow:0px 12px 16px 12px rgba(0, 0, 0, 0.45);
+	padding: 14px 16px;
+	margin-left: -11px;
+	z-index: 1;
+	border-style: ridge;
+	border-color: #C0C0C0;
+	font-weight: normal;
+
+}
+.dropdown:hover .drop-content{
+	display: block;
+}
+
+a#dropLinks {
+	color: #2c2c54;
+}
+
+a#dropLinks:link {
+	text-decoration: none;
+	
+}
+a#dropLinks:hover {
+	
+	text-decoration: underline;
+	font-size: 21px;
+}
+
+
+
+/*   Images  */
+
+.gallery {
+	border: 3px solid #f7f1e3;
+	width: 33%;
+	height: 250px;
+	margin: 1%;
+}
+
+.gallery:hover{
+	border: 3px solid #2c2c54;
+	text-decoration: underline;
+}
+
+
+img{
+	max-width: 100%;
+	max-height: 450px;
+}
+
+
+/*   default box  */
+
+.box {
+	background-color: #ffb142; /*#f1c40f;*/
+	border-radius: 25px;
+	color: #2c2c54;
+	margin: 5.75% 12% 1.5% 12%;
+	width: 72%;
+	height: 10%;
+	padding: 2%;
+    font-size: 18px;
+}
+
+#boxLine
+{
+	border: 2px solid #b33939;
+	margin-bottom: 4%;
+}
+
+#boxLineImage
+{
+	border: 2px solid #b33939;
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+.boxImage{
+	display: flex;
+	justify-content: left;
+	flex-wrap: wrap;
+	background-color: #ffb142; /*#f1c40f;*/
+	border-radius: 25px;
+    color: #2c2c54;
+	margin: 7% 12% 1.5% 12%;
+	padding: 2%;
+}
+
+#textBox{
+	margin-top: 8%;
+    font-size: 20px;
+}
+
+#heading{
+    text-align: center;
+    font-size: 26px;
+    text-decoration: underline;
+}
+
+
+
+/*   Lists --> Likes  */
+
+ul {
+    list-style-type: none;
+    text-align: center;
+    font-size: 21px ;
+}
+
+.Likes ul{
+    list-style-type: none;
+    margin: 3% 3% 5% 0%;
+    text-align: center;
+    font-size: 22px;
+}
+
+ul li {
+    margin-bottom: 1%;
+    font-size: 22px;
+}
+
+.Likes ol {
+    list-style-type: upper-roman;
+    margin: 3% 0% 10% 45%;
+    font-size: 22px;
+}
+
+.Likes ol li {
+    margin-bottom: 1%;
+}
+
+.Likes h2{
+    text-align: center;
+}
+
+
+/*  time table  */
+
+.timeTable table {
+    width: 100%;
+    overflow-x: auto;
+    border-collapse: collapse;
+}
+
+.timeTable th {
+    text-align: center;
+    border-bottom: 3px solid #b33939;
+    border-top: 3px solid #b33939;
+    background-color: #2c2c54;
+    color: #f7f1e3;
+}
+.timeTable td {
+    border-bottom: 1px solid #b33939;
+    text-align: center;
+}
+.timeTable tr:hover {
+    background-color: #cc8e35;
+}
+
+
+/*  description list  */
+
+dt {
+    font-size: 21px;
+}
+dd {
+    margin-bottom: 2%;
+    font-size: 19px;
+}
+
+
+#logo {
+	width: 10%;
+	height: 15%;
+	position: fixed;
+	margin-left: 0.5%;
+}
+
+.footer {
+	width: 45%;
+	margin-left: 27%;
+	text-align: center;
+	background-color: #ffb142;
+	position: absolute;
+	border-top-left-radius: 25px;
+	border-top-right-radius: 25px;
+}
+#footer {
+	color: #2c2c54;
+	font-size: 16px;
+}
